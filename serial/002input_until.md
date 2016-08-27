@@ -1,4 +1,4 @@
-# Serial Concoleから文字列を取得
+# デリミタまでの文字列をReadする
 
 ```c
 #include "Arduino.h"

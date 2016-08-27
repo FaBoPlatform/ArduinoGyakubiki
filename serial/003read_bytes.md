@@ -1,4 +1,4 @@
-# Serial Concoleから文字列を取得
+# ReadBytesでまとめてReadする
 
 ```c
 #include "Arduino.h"
