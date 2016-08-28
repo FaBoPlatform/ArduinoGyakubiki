@@ -8,3 +8,5 @@
 	* [ArduinoUnitでUnitテストする](/test/001arduino_unit.md)
 * ライブラリ
 	* [ライブラリの一覧](/library/001list.md)
+* ケース試作
+	* [ArduinoとFaBoの穴の位置](/case/001hole.md)
