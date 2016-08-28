@@ -24,6 +24,14 @@ Arduino UNOとMEGA系は、下記フォルダのHardwareSerial.hの`SERIAL_RX_BU
 > /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino
 > /Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino_256
 
+`Serial`、`Serial1`、`Serial2`、`Serial3`に対応して、下記ヘッダーでサイズが定義されている。
+
+* [HardwareSerial.h](https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/HardwareSerial.h)
+* [HardwareSerial1.h](https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/HardwareSerial1.h)
+* [HardwareSerial2.h](https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/HardwareSerial2.h)
+* [HardwareSerial3.h](https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/HardwareSerial3.h)
+
+
 ```bash
 #if !defined(SERIAL_TX_BUFFER_SIZE)
 #if ((RAMEND - RAMSTART) < 1023)
