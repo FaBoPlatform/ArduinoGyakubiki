@@ -1,6 +1,6 @@
 * [はじめに](README.md)
 * 文字列
-	* [文字列を表示する](/string/001print.md)
+	* [文字列を表示する](/string/001string.md)
 	* [文字列のマッチング](/string/002match.md)
 * シリアル
 	* [デリミタまでの文字列をReadする](/serial/002input_until.md)
